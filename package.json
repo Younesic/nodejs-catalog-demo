@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-catalog-demo",
+  "version": "1.0.0",
+  "description": "Node.js Express demo for Backstage catalog CI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run"
+  },
+  "backstage": {
+    "ownerGroupRef": "group:default/team-cib"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}
